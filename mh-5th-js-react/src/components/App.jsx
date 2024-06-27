@@ -1,7 +1,7 @@
-import Keyboard from "../pages/keyboard/Keyboard";
 import "./global.css";
+import Keyboard from "./hw/L02/sasha/Keyboard";
 
-function App() {
+function SashasWork() {
   return (
     <div className="App">
       <div className="corp">
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default SashasWork;
