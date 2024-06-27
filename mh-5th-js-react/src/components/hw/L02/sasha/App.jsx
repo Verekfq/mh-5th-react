@@ -1,5 +1,5 @@
 import "./global.css";
-import Keyboard from "./hw/L02/sasha/Keyboard";
+import Keyboard from "./Keyboard";
 
 function SashasWork() {
   return (

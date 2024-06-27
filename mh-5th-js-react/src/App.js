@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SashasWork from "./components/App";
+import SashasWork from "./components/hw/L02/sasha/App";
 import Keyboard from "./components/hw/L02/sasha/Keyboard";
 import { useState } from "react";
 import { AlertTitle } from "@mui/material";

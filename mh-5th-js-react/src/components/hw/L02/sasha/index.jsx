@@ -1,4 +1,4 @@
-import Keyboard from "./hw/L02/sasha/Keyboard";
+import Keyboard from "./Keyboard";
 import "./global.css";
 
 function Sasha() {
