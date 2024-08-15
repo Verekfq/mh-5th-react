@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header button {
+  border: 1px solid lightcoral;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+}
+header button :hover {
+  background-color: aliceblue;
+}
+header button :active {
+  transform: scale(0.95);
+}
+
+.gameButton {
+  border: 1px solid lightcoral;
+  border-radius: 30px;
+}
+.textField {
+  min-height: 50px;
+  padding: 0 20px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  line-height: 50px;
+  vertical-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,13 @@
+.gameButton {
+  border: 1px solid lightblue;
+  border-radius: 30px;
+}
+
+.textField {
+  min-height: 50px;
+  padding: 0 20px;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+  line-height: 50px;
+  vertical-align: center;
+}
