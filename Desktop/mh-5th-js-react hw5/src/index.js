@@ -5,17 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 export const MyContext = React.createContext(); // 1)создали некторый контекст
 root.render(
   //2) обернуть в этот контекст свой компонент и в поставщик этого контекста (в провайдер) обернуть свое приложение App
   <MyContext.Provider value={{ date: new Date() }}>
-    <Provider store={store}>
-      {/*подключаем redux */}
-      {/* <React.StrictMode> */}
-      <App />
-    </Provider>
+    <BrowserRouter>
+      <Provider store={store}>
+        {/*подключаем redux */}
+        {/* <React.StrictMode> */}
+        <App />
+      </Provider>
+    </BrowserRouter>
     {/* </React.StrictMode> */}
   </MyContext.Provider>
 );

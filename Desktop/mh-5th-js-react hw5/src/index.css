@@ -1,8 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active {
+  color: lightcoral;
+}
+
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
+  min-height: 50px;
+  border-bottom: 1px solid lightblue;
 }
 
 header button {
@@ -17,6 +34,10 @@ header button :hover {
 }
 header button :active {
   transform: scale(0.95);
+}
+
+main {
+  min-height: calc(100vh - 100px);
 }
 
 .gameButton {
